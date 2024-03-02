@@ -271,3 +271,66 @@ SCALENE
 Sample Output 2
 
 EQUILATERAL
+
+## CHALENGE 9
+
+A mathematical expression containing +,-,*,^, / and parenthesis will be provided. Read in the expression, then evaluate it. Display the result rounded to  decimal places.
+
+Constraints
+
+All numeric values are <= 999.
+
+Sample Input
+
+Sample Input 1
+
+5+50*3/20 + (19*2)/7
+Sample Input 2
+
+-105+50*3/20 + (19^2)/7
+Sample Input 3
+
+(-105.5*7+50*3)/20 + (19^2)/7
+Sample Output
+
+Sample Output 1
+
+17.929
+Sample Output 2
+
+-45.929
+Sample Output 3
+
+ 22.146
+
+## CHALLENGE 10
+
+Given  integers, compute their average, rounded to three decimal places.
+
+Input Format
+The first line contains an integer, N.
+Each of the following N lines contains a single integer.
+
+Output Format
+Display the average of the N integers, rounded off to three decimal places.
+
+Input Constraints
+
+ (N refers to elements of the list of integers for which the average is to be computed)
+
+Sample Input
+
+4
+1
+2
+9
+8
+Sample Output
+
+5.000
+Explanation
+The '4' in the first line indicates that there are four integers whose average is to be computed.
+
+The average = (1 + 2 + 9 + 8)/4 = 20/4 = 5.000 (correct to three decimal places).
+
+Please include the zeroes even if they are redundant (e.g. 0.000 instead of 0).
